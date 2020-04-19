@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitByteMega", "BitByteMega\BitByteMega.csproj", "{CF4AD596-0D7F-4BDE-AA61-C9FED04AE3D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9067E61F-56F2-46EF-807A-8F3401B34AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitByteMegaTests", "Tests\BitByteMegaTests\BitByteMegaTests.csproj", "{C1E86909-2469-4FD4-8A55-C5942A29DC0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF4AD596-0D7F-4BDE-AA61-C9FED04AE3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4AD596-0D7F-4BDE-AA61-C9FED04AE3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4AD596-0D7F-4BDE-AA61-C9FED04AE3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4AD596-0D7F-4BDE-AA61-C9FED04AE3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E86909-2469-4FD4-8A55-C5942A29DC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E86909-2469-4FD4-8A55-C5942A29DC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E86909-2469-4FD4-8A55-C5942A29DC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E86909-2469-4FD4-8A55-C5942A29DC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1E86909-2469-4FD4-8A55-C5942A29DC0A} = {9067E61F-56F2-46EF-807A-8F3401B34AE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2798E66C-6562-4781-A725-EF8C4702B6E3}
+	EndGlobalSection
+EndGlobal
